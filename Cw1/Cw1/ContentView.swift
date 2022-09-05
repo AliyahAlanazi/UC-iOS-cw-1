@@ -9,31 +9,50 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack {
-    Image("background")
-}
+            Image("background")
 
-        VStack{
+
+            VStack{
             Text("مرحبا أنا عالية ").bold()
+                
             Text("عمري 22").bold()
-            Text("أتعلم لغة ال SwiftUI الآن ")
-        }
-       
-    HStack{
-        Image(systemName:"heart.fill")
-        Image(systemName:"gear")
-        Image(systemName:"trash.fill")
+                
+                Text("أتعلم لغة ال SwiftUI الآن ").bold()
+                
+                HStack{
+                        
+                        Image(systemName:"heart.fill")
+                    
+                    
+                    Image(systemName:"gear")
+                    
+                    
+                    Image(systemName:"trash.fill") }
+                
+                
+                }
+            
+            
+            
+            
+            
+            
         
         }
-    }
-}
-
+        
+    
+        
+    }}
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
             ContentView()
-                .previewInterfaceOrientation(.portraitUpsideDown)
-            
-        }
+                
+          
     }
-}
+
+    }
+        }
+
+
 
